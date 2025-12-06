@@ -1,0 +1,19 @@
+# Hand Gesture Control System - Dependencies for Python 3.14+
+# Alternative implementation without MediaPipe
+# Install with: pip install -r requirements_py314.txt
+
+# Computer Vision (OpenCV with extra modules)
+opencv-contrib-python>=4.8.0  # OpenCV with additional modules for hand detection
+numpy>=1.24.0                  # Numerical computing for coordinate calculations
+
+# System Control
+pyautogui>=0.9.54             # Cross-platform GUI automation for mouse and keyboard control
+pynput>=1.7.6                 # Advanced input control and monitoring
+
+# Image Processing
+Pillow>=10.0.0                # Image manipulation and processing
+
+# Hand Detection Alternative
+# We'll use cvzone which works with OpenCV for hand tracking
+cvzone>=1.6.1                 # Computer vision utilities including hand tracking
+

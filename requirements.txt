@@ -1,0 +1,25 @@
+# Hand Gesture Control System - Dependencies
+# This file contains all required Python packages for the assistive technology project
+#
+# IMPORTANT: MediaPipe currently supports Python 3.8 - 3.12
+# If you're using Python 3.13 or 3.14, please use Python 3.12 instead:
+#   py -3.12 -m venv .venv312
+#   .venv312\Scripts\activate
+#   pip install -r requirements.txt
+
+# Computer Vision and Hand Tracking
+mediapipe>=0.10.0          # Google's hand tracking solution - provides 21 hand landmarks
+opencv-python>=4.8.0       # Computer vision library for camera input and image processing
+numpy>=1.24.0              # Numerical computing for coordinate calculations
+
+# System Control
+pyautogui>=0.9.54          # Cross-platform GUI automation for mouse and keyboard control
+pynput>=1.7.6              # Advanced input control and monitoring
+
+# Image Processing
+Pillow>=10.0.0             # Image manipulation and processing
+
+# Optional: For future enhancements
+# scikit-learn>=1.3.0      # Machine learning for custom gesture recognition
+# tensorflow>=2.13.0       # Deep learning for advanced gesture models
+
