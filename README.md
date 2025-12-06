@@ -302,4 +302,3 @@ For issues, questions, or suggestions:
 *This project demonstrates how computer vision and gesture recognition can create
 assistive technologies that empower people with disabilities to interact with
 computers in new and accessible ways.*
-
